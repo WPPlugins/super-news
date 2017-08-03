@@ -1,0 +1,70 @@
+/*
+Copyright: © 2009 WebSharks, Inc. ( coded in the USA )
+<mailto:support@websharks-inc.com> <http://www.websharks-inc.com/>
+
+Released under the terms of the GNU General Public License.
+You should have received a copy of the GNU General Public License,
+along with this software. In the main directory, see: /licensing/
+If not, see: <http://www.gnu.org/licenses/>.
+*/
+/*
+These CSS selectors are specific to this software.
+*/
+div.ws-menu-page > table.ws-menu-page-table > tbody > tr > td.ws-menu-page-table-l div.ws-plugin--super-news-results-section-hr,
+div.ws-menu-page > table.ws-menu-page-table > tbody > tr > td.ws-menu-page-table-l div.ws-plugin--super-news-results-section,
+div.ws-menu-page > table.ws-menu-page-table > tbody > tr > td.ws-menu-page-table-l div.ws-plugin--super-news-snippet-section-hr,
+div.ws-menu-page > table.ws-menu-page-table > tbody > tr > td.ws-menu-page-table-l div.ws-plugin--super-news-snippet-section,
+div.ws-menu-page > table.ws-menu-page-table > tbody > tr > td.ws-menu-page-table-l div.ws-plugin--super-news-pagination-section-hr,
+div.ws-menu-page > table.ws-menu-page-table > tbody > tr > td.ws-menu-page-table-l div.ws-plugin--super-news-pagination-section
+	{
+		display: none;
+	}
+div.ws-menu-page > table.ws-menu-page-table > tbody > tr > td.ws-menu-page-table-l img#ws-plugin--super-news-loading-animation
+	{
+		width: 16px;
+		height: 16px;
+		visibility: hidden;
+		vertical-align: middle;
+	}
+div.ws-menu-page > table.ws-menu-page-table > tbody > tr > td.ws-menu-page-table-l div#ws-plugin--super-news-search-results
+	{
+		font-size: 110%;
+	}
+div.ws-menu-page > table.ws-menu-page-table > tbody > tr > td.ws-menu-page-table-l div#ws-plugin--super-news-search-results div.super-news-result
+	{
+		position: relative;
+	}
+div.ws-menu-page > table.ws-menu-page-table > tbody > tr > td.ws-menu-page-table-l div#ws-plugin--super-news-search-results div.super-news-result > img.super-news-result-del
+	{
+		top: 0;
+		right: 0;
+		width: 16px;
+		height: 16px;
+		cursor: pointer;
+		position: absolute;
+	}
+div.ws-menu-page > table.ws-menu-page-table > tbody > tr > td.ws-menu-page-table-l textarea#ws-plugin--super-news-search-snippet
+	{
+		width: 100%;
+		background: #EEEEEE;
+		font-family: 'Consolas', monospace;
+	}
+div.ws-menu-page > table.ws-menu-page-table > tbody > tr > td.ws-menu-page-table-l span#ws-plugin--super-news-search-pagination > a
+	{
+		color: #164A61;
+		margin: 0 0 0 10px;
+		background: #FFFFFF;
+		text-decoration: none;
+		display: inline-block;
+		padding: 2px 8px 2px 8px;
+		border: 1px solid #CCCCCC;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+	}
+div.ws-menu-page > table.ws-menu-page-table > tbody > tr > td.ws-menu-page-table-l span#ws-plugin--super-news-search-pagination > a:hover,
+div.ws-menu-page > table.ws-menu-page-table > tbody > tr > td.ws-menu-page-table-l span#ws-plugin--super-news-search-pagination > a.current
+	{
+		color: #FFFFFF;
+		background: #164A61;
+	}
